@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CRUDApp.Models.Database.CountryModel>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-4" >
+            <a asp-action="Create" class="btn btn-primary">Add New</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Country Id</th>
+                    <th>Country Name</th>
+                    <th>Country Code</th>
+                    <th>Actions</th>
+                </tr>
+                @foreach (var country in Model)
+                {
+                    <tr>
+                        <td>
+                            @country.CountryId
+                        </td>
+                        <td>
+                            @country.CountryName
+                        </td>
+                        <td>
+                            @country.CountryCode
+                        </td>
+                        <td>
+                            <a href="@Url.Action("")"><i class="bi bi-edit"></i> Edit</a>
+                            <a href="@Url.Action("")">Details</a>
+                            <a href="@Url.Action("")">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

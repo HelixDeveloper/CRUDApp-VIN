@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDApp", "CRUDApp\CRUDApp.csproj", "{7A3DF419-3BA1-44D8-B36F-37EC0E30F776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A3DF419-3BA1-44D8-B36F-37EC0E30F776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3DF419-3BA1-44D8-B36F-37EC0E30F776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3DF419-3BA1-44D8-B36F-37EC0E30F776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3DF419-3BA1-44D8-B36F-37EC0E30F776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A249823-59BC-4414-94BC-3DA1F7A17CC5}
+	EndGlobalSection
+EndGlobal
